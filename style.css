@@ -30,24 +30,23 @@ li {
 /* Nav */
 
 nav {
-    height: 80px;
-    display: flex;
-}
-
-.nav__container {
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 24px;
+    padding: 12px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-.logo {
-    width: 40px;
+.nav__logo--img {
+    width: 50px;
+    border-radius: 4px;
 }
 
-.logo__name {
-    font-weight: bold;
+.nav_logo {
+    width: 180px;
 }
